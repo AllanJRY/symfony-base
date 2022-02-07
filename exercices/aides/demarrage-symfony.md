@@ -23,7 +23,7 @@ yarn install
 4. Dans le fichier webpack.config.js séparer les entrées pour les styles et les scripts :
 ```javascript
 .addEntry('styles', './assets/styles/main.scss')
-.addEntry('scripts', './assets/styles/main.ts')
+.addEntry('scripts', './assets/scripts/main.ts')
 ```
 
 N'oubliez pas de créer ou renommer les fichiers dans le dossier assets !
