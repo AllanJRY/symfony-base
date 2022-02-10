@@ -9,7 +9,7 @@ composer composer require fzaninotto/faker
 
 ***Attention à ne pas utiliser Faker dans vos projets personnels, cette librairie n'est plus maintenue !***
 
-Une fois les installations faites, dans le dossier src, créez un dossier DataFixtures et copiez la classe suivante :
+Une fois les installations faites, dans le dossier src, créez un dossier DataFixtures et copiez la classe suivante BaseFixture plus bas et lancez la commande `symfony console doctrine:fixtures:load`
 
 **Attention quelques ajustements seront à prévoir selon votre base de données/vos entités.**
 
