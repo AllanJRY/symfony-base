@@ -4,7 +4,7 @@ Installez les dépendances suivantes :
 ```shell
 composer require --dev orm-fixtures
 composer require cocur/slugify
-composer composer require fzaninotto/faker
+composer require fzaninotto/faker
 ```
 
 ***Attention à ne pas utiliser Faker dans vos projets personnels, cette librairie n'est plus maintenue !***
